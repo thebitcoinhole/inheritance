@@ -1,34 +1,35 @@
 {
-  "id": "casa",
-  "name": "Casa",
+  "id": "unchained",
+  "name": "Unchained",
   "company": {
     "brand": {
-      "value": "Casa"
+      "value": "Unchained Capital"
     },
     "headquarters": {
-      "value": "SAMPLE"
+      "value": "USA"
     },
     "website": {
-      "value": "casa.io",
-      "url": "https://casa.io/"
+      "value": "unchained.com",
+      "url": "https://unchained.com/"
     },
     "blog": {
-      "value": "blog.keys.casa",
-      "url": "https://blog.keys.casa/"
+      "value": "unchained.com/blog",
+      "url": "https://unchained.com/blog/"
     },
     "twitter": {
-      "value": "@CasaHODL",
-      "url": "https://twitter.com/CasaHODL"
+      "value": "@unchainedcom",
+      "url": "https://twitter.com/unchainedcom"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@CasaOfficial",
-      "url": "https://www.youtube.com/@CasaOfficial"
+      "value": "@unchainedbtc",
+      "url": "https://www.youtube.com/@unchainedbtc"
     },
     "github": {
-      "value": "-"
+      "value": "unchained-capital",
+      "url": "https://github.com/unchained-capital"
     }
   },
   "payment-methods": {

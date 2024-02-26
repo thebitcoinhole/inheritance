@@ -1,31 +1,30 @@
 {
-  "id": "casa",
-  "name": "Casa",
+  "id": "jinca",
+  "name": "Jinca",
   "company": {
     "brand": {
-      "value": "Casa"
+      "value": "Jinca"
     },
     "headquarters": {
       "value": "SAMPLE"
     },
     "website": {
-      "value": "casa.io",
-      "url": "https://casa.io/"
+      "value": "jinca.se",
+      "url": "https://jinca.se/"
     },
     "blog": {
-      "value": "blog.keys.casa",
-      "url": "https://blog.keys.casa/"
+      "value": "jinca.medium.com",
+      "url": "https://jinca.medium.com/"
     },
     "twitter": {
-      "value": "@CasaHODL",
-      "url": "https://twitter.com/CasaHODL"
+      "value": "@Jinca_se",
+      "url": "https://twitter.com/Jinca_se"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@CasaOfficial",
-      "url": "https://www.youtube.com/@CasaOfficial"
+      "value": "-"
     },
     "github": {
       "value": "-"
