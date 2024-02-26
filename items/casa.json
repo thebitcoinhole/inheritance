@@ -1,0 +1,56 @@
+{
+  "id": "casa",
+  "name": "SAMPLE",
+  "purchasable": true,
+  "company": {
+    "brand": {
+      "value": "SAMPLE"
+    },
+    "headquarters": {
+      "value": "SAMPLE"
+    },
+    "website": {
+      "value": "Website",
+      "url": "sample"
+    },
+    "blog": {
+      "value": "Blog",
+      "url": "sample"
+    },
+    "twitter": {
+      "value": "@sample",
+      "url": "https://twitter.com/sample"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@sample",
+      "url": "https://www.youtube.com/@sample"
+    },
+    "github": {
+      "value": "SAMPLE",
+      "url": "https://github.com/sample"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "SAMPLE",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "SAMPLE",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "SAMPLE",
+      "supported": true
+    }
+  }
+}
