@@ -1,34 +1,34 @@
 {
-  "id": "casa",
-  "name": "Casa",
+  "id": "nunchuk",
+  "name": "Nunchuk",
   "company": {
     "brand": {
-      "value": "Casa"
+      "value": "Nunchuk"
     },
     "headquarters": {
-      "value": "SAMPLE"
+      "value": "USA"
     },
     "website": {
       "value": "Website",
-      "url": "https://casa.io/"
+      "url": "https://nunchuk.io/"
     },
     "blog": {
       "value": "Blog",
-      "url": "https://blog.keys.casa/"
+      "url": "https://nunchuk.io/blog"
     },
     "twitter": {
-      "value": "@CasaHODL",
-      "url": "https://twitter.com/CasaHODL"
+      "value": "@nunchuk_io",
+      "url": "https://twitter.com/nunchuk_io"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@CasaOfficial",
-      "url": "https://www.youtube.com/@CasaOfficial"
+      "value": "-"
     },
     "github": {
-      "value": "-"
+      "value": "nunchuk-io",
+      "url": "https://github.com/nunchuk-io"
     }
   },
   "payment-methods": {

@@ -1,34 +1,35 @@
 {
-  "id": "casa",
-  "name": "Casa",
+  "id": "lastpass",
+  "name": "LastPass",
   "company": {
     "brand": {
-      "value": "Casa"
+      "value": "LastPass"
     },
     "headquarters": {
-      "value": "SAMPLE"
+      "value": "USA"
     },
     "website": {
       "value": "Website",
-      "url": "https://casa.io/"
+      "url": "https://www.lastpass.com/features/digital-will"
     },
     "blog": {
       "value": "Blog",
-      "url": "https://blog.keys.casa/"
+      "url": "https://blog.lastpass.com/"
     },
     "twitter": {
-      "value": "@CasaHODL",
-      "url": "https://twitter.com/CasaHODL"
+      "value": "@LastPass",
+      "url": "https://twitter.com/LastPass"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@CasaOfficial",
-      "url": "https://www.youtube.com/@CasaOfficial"
+      "value": "@LastPass",
+      "url": "https://www.youtube.com/@LastPass"
     },
     "github": {
-      "value": "-"
+      "value": "lastpass",
+      "url": "https://github.com/lastpass"
     }
   },
   "payment-methods": {
