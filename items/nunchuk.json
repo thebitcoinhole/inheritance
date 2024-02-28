@@ -50,5 +50,114 @@
       "value": "SAMPLE",
       "supported": true
     }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "private": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Nunchuk inheritance plan is built on cryptographic secrets, not proof of identity. That means both you and your Beneficiary can keep your privacy.",
+        "Each inheritance plan is uniquely identified by a Magic Phrase. The phrase will allow the Beneficiary or Trustee to locate the inheritance's backup data stored on Nunchuk server.",
+        "The inheritance's backup data is protected by a password. You will need this password in order to recover the inheritance key during the claiming process."
+      ]
+    },
+    "multi-sig": {
+      "value": "YES (2-of-4)",
+      "flag": "positive",
+      "supported": true
+    },
+    "required-hardware-wallet": {
+      "value": "Tapsigner",
+      "supported": true
+    },
+    "chat-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "If you ever need more help, you'll be able to talk to one of Nunchuk experts. All accessible directly within the app using a built-in messenger."
+      ]
+    },
+    "activation-date": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "activation-date-reminders": {
+      "value": "?",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "notifications-to-beneficiary": {
+      "value": "YES (by email)",
+      "flag": "positive",
+      "supported": true
+    },
+    "multiple-beneficiaries": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "hardware-wallets-support": {
+    "jade": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coldcard-q": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "passport-batch-2": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seedsigner": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "specter-diy": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "tapsigner": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
   }
 }

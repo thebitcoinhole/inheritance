@@ -1,0 +1,55 @@
+{
+  "id": "bitwarden",
+  "name": "Bitwarden",
+  "company": {
+    "brand": {
+      "value": "Bitwarden"
+    },
+    "headquarters": {
+      "value": "USA"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://bitwarden.com/help/emergency-access/#user-access"
+    },
+    "blog": {
+      "value": "Blog",
+      "url": "https://bitwarden.com/blog/"
+    },
+    "twitter": {
+      "value": "@bitwarden",
+      "url": "https://twitter.com/bitwarden"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@Bitwarden",
+      "url": "https://www.youtube.com/@Bitwarden"
+    },
+    "github": {
+      "value": "bitwarden",
+      "url": "https://github.com/bitwarden"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "SAMPLE",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "SAMPLE",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "SAMPLE",
+      "supported": true
+    }
+  }
+}
