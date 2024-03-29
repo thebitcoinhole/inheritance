@@ -56,27 +56,8 @@
       "supported": true
     }
   },
-  "features": {
-    "bitcoin-only": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
-    },
-    "crypto-specific-solution": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
+  "private-keys": {
     "non-custodial": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "exchanges-integration": {
-      "value": "NO",
-      "supported": false
-    },
-    "private": {
       "value": "YES",
       "flag": "positive",
       "supported": true
@@ -90,21 +71,40 @@
       ]
     },
     "required-hardware-wallet": {
-      "value": "1 hardware key",
+      "value": "1 or more hardware keys",
       "supported": true,
       "texts": [
         "For 5 key vault users, one hardware key is shared with the Beneficiary."
       ]
     },
-    "activation-date": {
+    "key-replacement-support": {
       "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
-    "activation-date-reminders": {
-      "value": "SAMPLE",
-      "flag": "negative",
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
       "supported": false
+    },
+    "private": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Private by defaul. The proof of identity requirement is optional."
+      ]
     },
     "message-for-beneficiary": {
       "value": "NO",
@@ -120,6 +120,12 @@
       "value": "YES",
       "flag": "positive",
       "supported": true
+    },
+    "waiting-period-to-claim": {
+      "value": "6 months",
+      "texts": [
+        "Upon your death, incapacitation, or otherwise, your Recipient will initiate a request in the app, which will begin the inheritance process. Casa initiates a sequence of notifications to the original vault owner to check if they are truly inactive. Stressful death verifications or expensive court orders are not required."
+      ]
     }
   },
   "hardware-wallets-support": {

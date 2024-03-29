@@ -56,6 +56,27 @@
       "supported": true
     }
   },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "multi-sig": {
+      "value": "YES (2-of-4)",
+      "flag": "positive",
+      "supported": true
+    },
+    "required-hardware-wallet": {
+      "value": "Tapsigner + 2 hardware keys",
+      "supported": true
+    },
+    "key-replacement-support": {
+      "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "YES",
@@ -63,11 +84,6 @@
       "supported": true
     },
     "crypto-specific-solution": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "non-custodial": {
       "value": "YES",
       "flag": "positive",
       "supported": true
@@ -86,24 +102,6 @@
         "The inheritance's backup data is protected by a password. You will need this password in order to recover the inheritance key during the claiming process."
       ]
     },
-    "multi-sig": {
-      "value": "YES (2-of-4)",
-      "flag": "positive",
-      "supported": true
-    },
-    "required-hardware-wallet": {
-      "value": "Tapsigner + 2 hardware keys",
-      "supported": true
-    },
-    "activation-date": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "activation-date-reminders": {
-      "value": "?",
-      "supported": false
-    },
     "message-for-beneficiary": {
       "value": "YES",
       "flag": "positive",
@@ -118,6 +116,17 @@
       "value": "NO",
       "flag": "negative",
       "supported": false
+    },
+    "waiting-period-to-claim": {
+      "value": "Depends of the timelock set by the owner",
+      "texts": [
+        "The Owner sets a timelock on the inheritance. The Owner is reminded to review the inheritance, and refresh the timelock.",
+        "Before the timelock expires, claiming is disallowed.",
+        "As long as the Owner is alive, they can keep refreshing the timelock indefinitely.",
+        "After the timelock has expired, the Beneficiary can create an account and start a claim. Claiming requires the Beneficiary to know two cryptographic secrets: the Magic Phrase, and the Backup Password.",
+        "Once a claim is initiated, an optional Buffer Period ensues (7 days or 30 days).",
+        "During the Buffer Period, Nunchuk will notify the Owner of the claiming attempt several times."
+      ]
     }
   },
   "hardware-wallets-support": {

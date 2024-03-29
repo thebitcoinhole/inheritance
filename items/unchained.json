@@ -3,7 +3,7 @@
   "name": "Unchained",
   "basic-information": {
     "price": {
-      "value": "$SAMPLE"
+      "value": "$250"
     }
   },
   "company": {
@@ -54,6 +54,145 @@
     },
     "credit-debit-card": {
       "value": "SAMPLE",
+      "supported": true
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "multi-sig": {
+      "value": "YES (2-of-3)",
+      "flag": "positive",
+      "supported": true
+    },
+    "required-hardware-wallet": {
+      "value": "2 hardware keys",
+      "supported": true
+    },
+    "key-replacement-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I conduct a key replacement?",
+          "url": "https://help.unchained.com/how-do-i-conduct-a-key-replacement"
+        }
+      ]
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "private": {
+      "value": "KYC required",
+      "flag": "negative",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    },
+    "notifications-to-beneficiary": {
+      "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "waiting-period-to-claim": {
+      "value": "Depends of Country Laws"
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coldcard-q": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "jade": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ledger-nano-X": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "passport-batch-2": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-safe-3": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "flag": "positive",
       "supported": true
     }
   }
