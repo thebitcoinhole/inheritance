@@ -1,6 +1,11 @@
 {
   "id": "bitwarden",
   "name": "Bitwarden",
+  "basic-information": {
+    "price": {
+      "value": "$SAMPLE"
+    }
+  },
   "company": {
     "brand": {
       "value": "Bitwarden"

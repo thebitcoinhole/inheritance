@@ -1,12 +1,17 @@
 {
   "id": "casa",
   "name": "Casa",
+  "basic-information": {
+    "price": {
+      "value": "$250"
+    }
+  },
   "company": {
     "brand": {
       "value": "Casa"
     },
     "headquarters": {
-      "value": "SAMPLE"
+      "value": "USA"
     },
     "website": {
       "value": "Website",
@@ -33,22 +38,158 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "SAMPLE",
+      "value": "YES",
       "flag": "positive",
       "supported": true
     },
     "btc-lightning": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
     "alt-coins": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "private": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "multi-sig": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "2-of-3 or 3-of-5"
+      ]
+    },
+    "required-hardware-wallet": {
+      "value": "1 hardware key",
+      "supported": true,
+      "texts": [
+        "For 5 key vault users, one hardware key is shared with the Beneficiary."
+      ]
+    },
+    "activation-date": {
+      "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    },
+    "activation-date-reminders": {
+      "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "notifications-to-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coldcard-q": {
+      "value": "?",
+      "supported": false
+    },
+    "jade": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-X": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passport-batch-2": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-safe-3": {
+      "value": "?",
+      "supported": false
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   }
 }

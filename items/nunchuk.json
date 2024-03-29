@@ -1,6 +1,11 @@
 {
   "id": "nunchuk",
   "name": "Nunchuk",
+  "basic-information": {
+    "price": {
+      "value": "$480"
+    }
+  },
   "company": {
     "brand": {
       "value": "Nunchuk"
@@ -33,21 +38,21 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "SAMPLE",
+      "value": "YES",
       "flag": "positive",
       "supported": true
     },
     "btc-lightning": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
     "alt-coins": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true
     }
   },
@@ -87,16 +92,8 @@
       "supported": true
     },
     "required-hardware-wallet": {
-      "value": "Tapsigner",
+      "value": "Tapsigner + 2 hardware keys",
       "supported": true
-    },
-    "chat-support": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true,
-      "texts": [
-        "If you ever need more help, you'll be able to talk to one of Nunchuk experts. All accessible directly within the app using a built-in messenger."
-      ]
     },
     "activation-date": {
       "value": "YES",
@@ -124,7 +121,7 @@
     }
   },
   "hardware-wallets-support": {
-    "jade": {
+    "bitbox02": {
       "value": "YES",
       "flag": "positive",
       "supported": true
@@ -135,6 +132,26 @@
       "supported": true
     },
     "coldcard-q": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "jade": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "keystone-3-pro": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ledger-nano-X": {
       "value": "YES",
       "flag": "positive",
       "supported": true
@@ -155,6 +172,21 @@
       "supported": true
     },
     "tapsigner": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-safe-3": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-model-t": {
       "value": "YES",
       "flag": "positive",
       "supported": true

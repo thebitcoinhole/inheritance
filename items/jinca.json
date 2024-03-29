@@ -1,12 +1,17 @@
 {
   "id": "jinca",
   "name": "Jinca",
+  "basic-information": {
+    "price": {
+      "value": "$SAMPLE"
+    }
+  },
   "company": {
     "brand": {
       "value": "Jinca"
     },
     "headquarters": {
-      "value": "SAMPLE"
+      "value": "USA"
     },
     "website": {
       "value": "Website",

@@ -1,6 +1,11 @@
 {
   "id": "unchained",
   "name": "Unchained",
+  "basic-information": {
+    "price": {
+      "value": "$SAMPLE"
+    }
+  },
   "company": {
     "brand": {
       "value": "Unchained Capital"

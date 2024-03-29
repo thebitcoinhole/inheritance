@@ -1,6 +1,11 @@
 {
   "id": "lastpass",
   "name": "LastPass",
+  "basic-information": {
+    "price": {
+      "value": "$SAMPLE"
+    }
+  },
   "company": {
     "brand": {
       "value": "LastPass"
