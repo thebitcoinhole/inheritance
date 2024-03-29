@@ -128,6 +128,88 @@
       ]
     }
   },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=casa.keymaster"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-release-notes": {
+      "value": "?",
+      "supported": false
+    },
+    "android-source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-license": {
+      "value": "-",
+      "supported": false
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/casa-keymaster/id1314586706"
+        }
+      ]
+    },
+    "ios-release-notes": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "hardware-wallets-support": {
     "bitbox02": {
       "value": "NO",
