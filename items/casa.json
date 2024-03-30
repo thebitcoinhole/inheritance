@@ -62,8 +62,18 @@
       "flag": "positive",
       "supported": true
     },
+    "single-sig": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "multi-sig": {
-      "value": "YES",
+      "value": "Required",
       "flag": "positive",
       "supported": true,
       "texts": [
@@ -152,6 +162,11 @@
       "value": "1 per Multisig",
       "flag": "neutral",
       "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "key-replacement-support": {
       "value": "YES",

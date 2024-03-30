@@ -3,7 +3,7 @@
   "name": "Jinca",
   "basic-information": {
     "price": {
-      "value": "$SAMPLE"
+      "value": "$45"
     }
   },
   "company": {
@@ -37,22 +37,388 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "SAMPLE",
+      "value": "YES (via Coinbase)",
       "flag": "positive",
       "supported": true
     },
     "btc-lightning": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
     "alt-coins": {
-      "value": "SAMPLE",
-      "supported": false
+      "value": "YES (via Coinbase)",
+      "supported": true
     },
     "credit-debit-card": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "single-sig": {
+      "value": "Optional",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "You need to upload to Jinca a Seedphrase fraction"
+      ]
+    },
+    "shamir-backup": {
+      "value": "Optional",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "You need to upload to Jinca a Seedphrase fraction"
+      ]
+    },
+    "multi-sig": {
+      "value": "Optional",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "You need to upload to Jinca a Seedphrase fraction"
+      ]
+    },
+    "required-hardware-wallet": {
+      "value": "NO",
+      "supported": false
+    },
+    "key-replacement-support": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "health-checks": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Jinca Integrates to your exchanges with their API to automatically transfer your assets to preconfigured wallets of your loved ones."
+      ]
+    },
+    "private": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "message-for-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "notifications-to-beneficiary": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "waiting-period-to-claim": {
+      "value": "Defined by the owner",
+      "linkks": [
+        {
+          "title": "Signal",
+          "url": "https://support.jinca.se/hc/en-us/articles/15373120693531-Signal"
+        }
+      ]
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-googleplay-support": {
+      "value": "-",
+      "supported": false
+    },
+    "android-apk-support": {
+      "value": "-",
+      "supported": false
+    },
+    "android-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "android-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "android-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "android-license": {
+      "value": "-",
+      "supported": false
+    },
+    "android-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "coldcard-mk4": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "coldcard-q": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "jade": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "keystone-3-pro": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "ledger-nano-s-plus": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "ledger-nano-X": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "passport-batch-2": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "seedsigner": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "specter-diy": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "trezor-safe-3": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "trezor-model-t": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
     }
   }
 }

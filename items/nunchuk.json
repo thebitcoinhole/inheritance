@@ -62,8 +62,18 @@
       "flag": "positive",
       "supported": true
     },
+    "single-sig": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "multi-sig": {
-      "value": "YES (2-of-4)",
+      "value": "Required (2-of-4)",
       "flag": "positive",
       "supported": true
     },
@@ -150,6 +160,11 @@
       "value": "1 per Multisig",
       "flag": "neutral",
       "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "waiting-period-to-claim": {
       "value": "Defined by the owner",
