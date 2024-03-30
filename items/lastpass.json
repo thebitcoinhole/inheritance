@@ -1,5 +1,6 @@
 {
   "id": "lastpass",
+  "enabled": false,
   "name": "LastPass",
   "basic-information": {
     "price": {

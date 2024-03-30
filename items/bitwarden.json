@@ -1,5 +1,6 @@
 {
   "id": "bitwarden",
+  "enabled": false,
   "name": "Bitwarden",
   "basic-information": {
     "price": {
