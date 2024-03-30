@@ -39,21 +39,19 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "SAMPLE",
-      "flag": "positive",
-      "supported": true
+      "value": "?",
+      "supported": false
     },
     "btc-lightning": {
-      "value": "SAMPLE",
-      "flag": "negative",
+      "value": "?",
       "supported": false
     },
     "alt-coins": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true
     }
   },
@@ -82,6 +80,28 @@
           "url": "https://help.unchained.com/how-do-i-conduct-a-key-replacement"
         }
       ]
+    },
+    "health-checks": {
+      "value": "SAMPLE",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "features": {
@@ -97,8 +117,7 @@
     },
     "exchanges-integration": {
       "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "private": {
       "value": "KYC required",

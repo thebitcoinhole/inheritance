@@ -75,6 +75,40 @@
       "value": "SAMPLE",
       "flag": "negative",
       "supported": false
+    },
+    "health-checks": {
+      "value": "Every year",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Every year the Owner is reminded to review the inheritance, and refresh the timelock."
+      ]
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "The simplest way to use the plan is to give the Beneficiary direct control over the two secrets. Upon the Activation Date, they can claim the inheritance for themselves."
+      ]
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "You can choose to leave both secrets with a trusted guardian. This can be the Trustee of your estate plan. Upon the Activation Date, the Trustee can help the Beneficiary claim the inheritance on their behalf."
+      ]
+    },
+    "joint-control": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Split the two secrets between the Beneficiary and the Trustee. This will help ensure that each one only has partial control over your bitcoins. Upon the Activation Date, the Beneficiary and Trustee will need to bring together the two secrets in order to claim the inheritance."
+      ]
     }
   },
   "features": {
@@ -113,12 +147,12 @@
       "supported": true
     },
     "multiple-beneficiaries": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "1 per Multisig",
+      "flag": "neutral",
+      "supported": true
     },
     "waiting-period-to-claim": {
-      "value": "Depends of the timelock set by the owner",
+      "value": "Defined by the owner",
       "texts": [
         "The Owner sets a timelock on the inheritance. The Owner is reminded to review the inheritance, and refresh the timelock.",
         "Before the timelock expires, claiming is disallowed.",
@@ -217,19 +251,22 @@
       "supported": false
     },
     "ios-source-available": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "ios-open-source": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "ios-license": {
-      "value": "?",
+      "value": "-",
       "supported": false
     },
     "ios-reproducible-builds": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     }
   },

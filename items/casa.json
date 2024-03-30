@@ -81,6 +81,38 @@
       "value": "SAMPLE",
       "flag": "negative",
       "supported": false
+    },
+    "health-checks": {
+      "value": "Every 6 months",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Health Checks",
+          "url": "https://support.casa.io/knowledge/inheritance-faqs-vault-owner#health-checks"
+        },
+        {
+          "title": "Recipient Health Checks",
+          "url": "https://support.casa.io/knowledge/recipient-health-checks"
+        }
+      ]
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "features": {
@@ -103,7 +135,7 @@
       "flag": "positive",
       "supported": true,
       "texts": [
-        "Private by defaul. The proof of identity requirement is optional."
+        "Private by default. The proof of identity requirement is optional."
       ]
     },
     "message-for-beneficiary": {
@@ -117,9 +149,20 @@
       "supported": false
     },
     "multiple-beneficiaries": {
+      "value": "1 per Multisig",
+      "flag": "neutral",
+      "supported": true
+    },
+    "key-replacement-support": {
       "value": "YES",
       "flag": "positive",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "Key rotation (replacing a key in the Casa app)",
+          "url": "https://support.casa.io/knowledge/key-rotation-replacing-a-key-in-the-casa-app"
+        }
+      ]
     },
     "waiting-period-to-claim": {
       "value": "6 months",
