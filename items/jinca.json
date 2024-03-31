@@ -69,14 +69,6 @@
         "You need to upload to Jinca a Seedphrase fraction"
       ]
     },
-    "shamir-backup": {
-      "value": "Optional",
-      "flag": "neutral",
-      "supported": true,
-      "texts": [
-        "You need to upload to Jinca a Seedphrase fraction"
-      ]
-    },
     "multi-sig": {
       "value": "Optional",
       "flag": "neutral",
@@ -159,6 +151,10 @@
       "value": "YES",
       "flag": "positive",
       "supported": true
+    },
+    "onchain-timelock": {
+      "value": "NO",
+      "supported": false
     },
     "waiting-period-to-claim": {
       "value": "Defined by the owner",

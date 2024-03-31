@@ -67,11 +67,6 @@
       "flag": "negative",
       "supported": false
     },
-    "shamir-backup": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
-    },
     "multi-sig": {
       "value": "Required",
       "flag": "positive",
@@ -178,6 +173,10 @@
           "url": "https://support.casa.io/knowledge/key-rotation-replacing-a-key-in-the-casa-app"
         }
       ]
+    },
+    "onchain-timelock": {
+      "value": "NO",
+      "supported": false
     },
     "waiting-period-to-claim": {
       "value": "6 months",

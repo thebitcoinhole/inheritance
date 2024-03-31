@@ -66,11 +66,6 @@
       "flag": "negative",
       "supported": false
     },
-    "shamir-backup": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
-    },
     "multi-sig": {
       "value": "Required (2-of-3)",
       "flag": "positive",
@@ -152,6 +147,10 @@
     "assign-percentage-beneficiaries": {
       "value": "NO",
       "flag": "negative",
+      "supported": false
+    },
+    "onchain-timelock": {
+      "value": "NO",
       "supported": false
     },
     "waiting-period-to-claim": {

@@ -3,333 +3,286 @@
   "name": "Liana",
   "basic-information": {
     "price": {
-      "value": "$SAMPLE"
+      "value": "€498"
     }
   },
   "company": {
     "brand": {
-      "value": "SAMPLE"
+      "value": "Wizardsardine"
     },
     "headquarters": {
-      "value": "SAMPLE"
+      "value": "Portugal"
     },
     "website": {
-      "value": "SAMPLE",
-      "url": "sample"
+      "value": "Website",
+      "url": "https://wizardsardine.com/liana/"
     },
     "blog": {
-      "value": "SAMPLE",
-      "url": "sample"
+      "value": "Blog",
+      "url": "https://wizardsardine.com/blog/"
     },
     "twitter": {
-      "value": "@sample",
-      "url": "https://twitter.com/sample"
+      "value": "@Wizardsardine",
+      "url": "https://twitter.com/Wizardsardine"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@sample",
-      "url": "https://www.youtube.com/@sample"
+      "value": "@wizardsardine",
+      "url": "https://www.youtube.com/@wizardsardine"
     },
     "github": {
-      "value": "SAMPLE",
-      "url": "https://github.com/sample"
+      "value": "wizardsardine",
+      "url": "https://github.com/wizardsardine"
     }
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "SAMPLE",
+      "value": "YES",
       "flag": "positive",
       "supported": true
     },
     "btc-lightning": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
     "alt-coins": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true
     }
   },
   "private-keys": {
     "non-custodial": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "single-sig": {
-      "value": "SAMPLE",
-      "flag": "negative",
+      "value": "Optional",
+      "flag": "positive",
+      "supported": true
+    },
+    "multi-sig": {
+      "value": "Optional",
+      "flag": "positive",
+      "supported": true
+    },
+    "required-hardware-wallet": {
+      "value": "NO",
       "supported": false
     },
-    "shamir-backup": {
+    "key-replacement-support": {
       "value": "NO",
       "flag": "negative",
       "supported": false
     },
-    "multi-sig": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
-    },
-    "required-hardware-wallet": {
-      "value": "SAMPLE",
-      "supported": false
-    },
-    "key-replacement-support": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
-    },
     "health-checks": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     }
   },
   "passing-down-alternatives": {
     "direct-inheritance": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "indirect-inheritance": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "joint-control": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     }
   },
   "features": {
     "bitcoin-only": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "crypto-specific-solution": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "exchanges-integration": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false
     },
     "private": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "message-for-beneficiary": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
     "notifications-to-beneficiary": {
-      "value": "SAMPLE",
+      "value": "No",
       "flag": "negative",
       "supported": false
     },
     "multiple-beneficiaries": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "assign-percentage-beneficiaries": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
+    "onchain-timelock": {
+      "value": "YES",
+      "supported": true
+    },
     "waiting-period-to-claim": {
-      "value": "SAMPLE"
+      "value": "Defined by the owner"
     }
   },
   "android-support": {
     "android-supported": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "android-googleplay-support": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "-",
+      "supported": false
     },
     "android-apk-support": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "-",
+      "supported": false
     },
     "android-release-notes": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "sample"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "android-source-available": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "sample"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "android-open-source": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "-",
+      "supported": false
     },
     "android-license": {
-      "value": "SAMPLE",
-      "supported": false,
-      "links": [
-        {
-          "title": "License",
-          "url": "sample"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "android-reproducible-builds": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "-",
+      "supported": false
     }
   },
   "ios-support": {
     "ios-supported": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "ios-release-notes": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "sample"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "ios-source-available": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "sample"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "ios-open-source": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "-",
+      "supported": false
     },
     "ios-license": {
-      "value": "SAMPLE",
-      "supported": false,
-      "links": [
-        {
-          "title": "License",
-          "url": "sample"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "ios-reproducible-builds": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "-",
+      "supported": false
     }
   },
   "hardware-wallets-support": {
     "bitbox02": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "coldcard-mk4": {
-      "value": "SAMPLE",
+      "value": "SOON",
       "supported": false,
-      "flag": "negative"
+      "flag": "neutral"
     },
     "coldcard-q": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "jade": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "keystone-3-pro": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "ledger-nano-s-plus": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "ledger-nano-X": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "passport-batch-2": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "seedsigner": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "specter-diy": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tapsigner": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-model-one": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-safe-3": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-model-t": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     }
