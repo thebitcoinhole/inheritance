@@ -80,9 +80,12 @@
       "supported": true
     },
     "key-replacement-support": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
-      "supported": false
+      "supported": false,
+      "texts": [
+        "The user can create a new assisted wallet and roll the funds over in case any key is compromised. The process is not automated."
+      ]
     },
     "health-checks": {
       "value": "Every year",
@@ -117,6 +120,16 @@
       "texts": [
         "Split the two secrets between the Beneficiary and the Trustee. This will help ensure that each one only has partial control over your bitcoins. Upon the Activation Date, the Beneficiary and Trustee will need to bring together the two secrets in order to claim the inheritance."
       ]
+    },
+    "multiple-beneficiaries": {
+      "value": "1 per Multisig",
+      "flag": "neutral",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "features": {
@@ -153,16 +166,6 @@
       "value": "YES (by email)",
       "flag": "positive",
       "supported": true
-    },
-    "multiple-beneficiaries": {
-      "value": "1 per Multisig",
-      "flag": "neutral",
-      "supported": true
-    },
-    "assign-percentage-beneficiaries": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
     },
     "onchain-timelock": {
       "value": "NO",

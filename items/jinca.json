@@ -74,7 +74,7 @@
       "flag": "neutral",
       "supported": true,
       "texts": [
-        "You need to upload to Jinca a Seedphrase fraction"
+        "You need to upload to Jinca a Seedphrase fraction. No native support for multisig."
       ]
     },
     "required-hardware-wallet": {
@@ -107,6 +107,16 @@
       "value": "NO",
       "flag": "negative",
       "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     }
   },
   "features": {
@@ -138,16 +148,6 @@
       "supported": false
     },
     "notifications-to-beneficiary": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "multiple-beneficiaries": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "assign-percentage-beneficiaries": {
       "value": "YES",
       "flag": "positive",
       "supported": true

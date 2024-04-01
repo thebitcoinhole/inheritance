@@ -86,11 +86,15 @@
         {
           "title": "How do I conduct a key replacement?",
           "url": "https://help.unchained.com/how-do-i-conduct-a-key-replacement"
+        },
+        {
+          "title": "What happens if I need to update or change my keyholder?",
+          "url": "https://help.unchained.com/update-change-inheritance-keyholder"
         }
       ]
     },
     "health-checks": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     }
@@ -107,6 +111,16 @@
       "supported": true
     },
     "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
       "value": "NO",
       "flag": "negative",
       "supported": false
@@ -133,21 +147,11 @@
       "supported": false
     },
     "message-for-beneficiary": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
     "notifications-to-beneficiary": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
-    },
-    "multiple-beneficiaries": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "assign-percentage-beneficiaries": {
       "value": "NO",
       "flag": "negative",
       "supported": false

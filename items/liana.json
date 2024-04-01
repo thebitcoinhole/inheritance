@@ -103,6 +103,16 @@
       "value": "YES",
       "flag": "positive",
       "supported": true
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "features": {
@@ -132,16 +142,6 @@
     },
     "notifications-to-beneficiary": {
       "value": "No",
-      "flag": "negative",
-      "supported": false
-    },
-    "multiple-beneficiaries": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "assign-percentage-beneficiaries": {
-      "value": "NO",
       "flag": "negative",
       "supported": false
     },

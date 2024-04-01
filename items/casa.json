@@ -84,9 +84,12 @@
       ]
     },
     "key-replacement-support": {
-      "value": "SAMPLE",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "With a Casa vault, you can easily replace a compromised key when needed and retain full control over your digital assets."
+      ]
     },
     "health-checks": {
       "value": "Every 6 months",
@@ -116,6 +119,16 @@
       "supported": true
     },
     "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "1 per Multisig",
+      "flag": "neutral",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
       "value": "NO",
       "flag": "negative",
       "supported": false
@@ -150,16 +163,6 @@
       "supported": false
     },
     "notifications-to-beneficiary": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
-    },
-    "multiple-beneficiaries": {
-      "value": "1 per Multisig",
-      "flag": "neutral",
-      "supported": true
-    },
-    "assign-percentage-beneficiaries": {
       "value": "NO",
       "flag": "negative",
       "supported": false
