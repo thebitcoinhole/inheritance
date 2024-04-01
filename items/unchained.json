@@ -69,7 +69,10 @@
     "multi-sig": {
       "value": "Required (2-of-3)",
       "flag": "positive",
-      "supported": true
+      "supported": true,
+      "texts": [
+        "The service only safekeeps one of the keys in your multisig wallet, which requires multiple keys to withdraw funds. The service never has custody of your bitcoins."
+      ]
     },
     "required-hardware-wallet": {
       "value": "2 hardware keys",
@@ -328,9 +331,9 @@
       "supported": true
     },
     "coldcard-q": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "jade": {
       "value": "NO",

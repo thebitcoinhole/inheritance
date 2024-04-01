@@ -72,7 +72,8 @@
       "flag": "positive",
       "supported": true,
       "texts": [
-        "2-of-3 or 3-of-5"
+        "2-of-3 or 3-of-5",
+        "The service only safekeeps one of the keys in your multisig wallet, which requires multiple keys to withdraw funds. The service never has custody of your bitcoins."
       ]
     },
     "required-hardware-wallet": {
