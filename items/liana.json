@@ -141,7 +141,7 @@
       "supported": false
     },
     "notifications-to-beneficiary": {
-      "value": "No",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
