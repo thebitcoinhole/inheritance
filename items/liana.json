@@ -416,12 +416,24 @@
     "coldcard-mk4": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/signing_devices.md"
+        }
+      ]
     },
     "coldcard-q": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/signing_devices.md"
+        }
+      ]
     },
     "jade": {
       "value": "NO",
