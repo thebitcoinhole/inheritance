@@ -62,6 +62,11 @@
       "flag": "positive",
       "supported": true
     },
+    "provider-independence": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "single-sig": {
       "value": "NO",
       "flag": "negative",
@@ -181,6 +186,11 @@
     "onchain-timelock": {
       "value": "NO",
       "supported": false
+    },
+    "zero-costo-to-update-timelock": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "waiting-period-to-claim": {
       "value": "6 months",

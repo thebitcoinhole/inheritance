@@ -61,6 +61,11 @@
       "flag": "positive",
       "supported": true
     },
+    "provider-independence": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "single-sig": {
       "value": "NO",
       "flag": "negative",
@@ -157,7 +162,11 @@
       "supported": false
     },
     "onchain-timelock": {
-      "value": "NO",
+      "value": "No timelock used",
+      "supported": false
+    },
+    "zero-costo-to-update-timelock": {
+      "value": "No timelock used",
       "supported": false
     },
     "waiting-period-to-claim": {
