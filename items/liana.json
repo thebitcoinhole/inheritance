@@ -3,7 +3,7 @@
   "name": "Liana",
   "basic-information": {
     "price": {
-      "value": "€498"
+      "value": "$0"
     }
   },
   "company": {
@@ -159,7 +159,7 @@
       "flag": "negative",
       "supported": false,
       "texts": [
-        "You need to execute a transaction to update the timelock"
+        "You need to execute a transaction to update the timelock, so the bitcoin fee needs to be paid"
       ]
     },
     "waiting-period-to-claim": {
