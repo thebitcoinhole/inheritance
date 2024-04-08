@@ -37,7 +37,7 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "YES (via Coinbase)",
+      "value": "YES",
       "flag": "positive",
       "supported": true
     },
@@ -47,7 +47,7 @@
       "supported": false
     },
     "alt-coins": {
-      "value": "YES (via Coinbase)",
+      "value": "YES",
       "supported": true
     },
     "credit-debit-card": {
