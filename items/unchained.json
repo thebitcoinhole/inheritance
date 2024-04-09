@@ -98,6 +98,11 @@
         }
       ]
     },
+    "beneficiary-key-lost-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "health-checks": {
       "value": "NO",
       "flag": "negative",

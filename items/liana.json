@@ -87,6 +87,15 @@
       "flag": "negative",
       "supported": false
     },
+    "beneficiary-key-lost-protection": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "You can configure an extra recovery option in case your beneficiaries lost their keys.",
+        "Also, you can subscribe to Safety Net, so if you ever lose access, after a long time of inactivity, a professional custodian will be able to recover them for you."
+      ]
+    },
     "health-checks": {
       "value": "NO",
       "flag": "negative",
@@ -236,7 +245,13 @@
     "web-supported": {
       "value": "SOON",
       "supported": false,
-      "flag": "neutral"
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Liana Lite",
+          "url": "https://lianalite.com/"
+        }
+      ]
     },
     "web-release-notes": {
       "value": "-",

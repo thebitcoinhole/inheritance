@@ -96,6 +96,11 @@
         "With a Casa vault, you can easily replace a compromised key when needed and retain full control over your digital assets."
       ]
     },
+    "beneficiary-key-lost-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "health-checks": {
       "value": "Every 6 months",
       "flag": "positive",
