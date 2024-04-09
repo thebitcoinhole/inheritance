@@ -165,7 +165,10 @@
       "value": "No timelock used",
       "supported": false
     },
-    "zero-costo-to-update-timelock": {
+    "timelock-refresh-method": {
+      "value": "No timelock used"
+    },
+    "zero-cost-to-update-timelock": {
       "value": "No timelock used",
       "supported": false
     },

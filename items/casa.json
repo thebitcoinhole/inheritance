@@ -187,7 +187,11 @@
       "value": "NO",
       "supported": false
     },
-    "zero-costo-to-update-timelock": {
+    "timelock-refresh-method": {
+      "value": "No Need",
+      "flag": "positive"
+    },
+    "zero-cost-to-update-timelock": {
       "value": "YES",
       "flag": "positive",
       "supported": true

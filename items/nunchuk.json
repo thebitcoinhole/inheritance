@@ -93,12 +93,9 @@
       ]
     },
     "health-checks": {
-      "value": "Every year",
-      "flag": "positive",
-      "supported": true,
-      "texts": [
-        "Every year the Owner is reminded to review the inheritance, and refresh the timelock."
-      ]
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "passing-down-alternatives": {
@@ -176,7 +173,11 @@
       "value": "NO",
       "supported": false
     },
-    "zero-costo-to-update-timelock": {
+    "timelock-refresh-method": {
+      "value": "On App",
+      "flag": "positive"
+    },
+    "zero-cost-to-update-timelock": {
       "value": "YES",
       "flag": "positive",
       "supported": true
@@ -184,7 +185,7 @@
     "waiting-period-to-claim": {
       "value": "Defined by the owner",
       "texts": [
-        "The Owner sets a timelock on the inheritance. The Owner is reminded to review the inheritance, and refresh the timelock.",
+        "The Owner sets a timelock on the inheritance.",
         "Before the timelock expires, claiming is disallowed.",
         "As long as the Owner is alive, they can keep refreshing the timelock indefinitely.",
         "After the timelock has expired, the Beneficiary can create an account and start a claim. Claiming requires the Beneficiary to know two cryptographic secrets: the Magic Phrase, and the Backup Password.",

@@ -154,12 +154,16 @@
       "value": "YES",
       "supported": true
     },
-    "zero-costo-to-update-timelock": {
+    "timelock-refresh-method": {
+      "value": "Move coins to new address",
+      "flag": "negative"
+    },
+    "zero-cost-to-update-timelock": {
       "value": "NO",
       "flag": "negative",
       "supported": false,
       "texts": [
-        "You need to execute a transaction to update the timelock, so the bitcoin fee needs to be paid"
+        "You need to execute a transaction to update the timelock, so the on-chain fee needs to be paid"
       ]
     },
     "waiting-period-to-claim": {
@@ -230,9 +234,9 @@
   },
   "web-support": {
     "web-supported": {
-      "value": "NO",
+      "value": "SOON",
       "supported": false,
-      "flag": "negative"
+      "flag": "neutral"
     },
     "web-release-notes": {
       "value": "-",
@@ -449,9 +453,9 @@
       ]
     },
     "jade": {
-      "value": "NO",
+      "value": "SOON",
       "supported": false,
-      "flag": "negative"
+      "flag": "neutral"
     },
     "keystone-3-pro": {
       "value": "NO",
