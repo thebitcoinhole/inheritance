@@ -8,7 +8,7 @@ Bitcoin inheritance services offer a solution to this problem by providing indiv
 
 ## Collaboration
 
-Inside the `items` directory, there is a JSON file for each wallet, with all the data about it. To collaborate (adding missing data, fixing wrong data or adding a new wallet), just fork the repository and send a pull request with the changes.
+Inside the `items` directory, there is a JSON file for each item, with all the data about it. To collaborate (adding missing data, fixing wrong data or adding a new item), just fork the repository and send a pull request with the changes.
 
 Before sending the pull request, please run the following commands to format the JSON:
 
@@ -23,10 +23,9 @@ The following is a sample of the JSON format:
 
 ```json
 {
-    "id": "item-id",
-    "name": "Item Name",
+    "id": "inheritance-service-id",
+    "name": "Inheritance Service Name",
     "purchasable": true,
-    "pre-order": false,
     "category-name": {
       "feature-name-1": {
         "value": "YES", 
@@ -60,13 +59,11 @@ JSON fields:
 
 | Field | Type | Required | Description |
 | --- | --- | --- | --- |
-| id | string | true | The wallet id. It matches with the JSON file name. |
-| name | string | true | The wallet name. |
-| purchasable | boolean | true | If the wallet can be purchased in the official website |
-| pre-order | boolean | false | If the wallet is not released yet and can be reserved/pre-ordered |
+| id | string | true | The Inheritance Service id. It matches with the JSON file name. |
+| name | string | true | The Inheritance Service name. |
 | category-name.feature-name-1.value | string | yes | The visible feature value. For example: `"YES"`, `"NO"`, `"Experimental"`, etc |
-| category-name.feature-name-1.flag | string | no | The flag of the wallet feature. Possible values: `"positive"`, `"neutral"` or `"negative"` |
-| category-name.feature-name-1.supported | boolean | no | If the feature is supported by the wallet. This is used to filter by this feature |
+| category-name.feature-name-1.flag | string | no | The flag of the Inheritance Service feature. Possible values: `"positive"`, `"neutral"` or `"negative"` |
+| category-name.feature-name-1.supported | boolean | no | If the feature is supported by the Inheritance Service. This is used to filter by this feature |
 | category-name.feature-name-1.texts | array of strings | no | Official Texts with info about the feature |
 | category-name.feature-name-1.links | array of objects | no | Official links with info about the feature |
 | category-name.feature-name-1.links.title | string | yes | The title of the link |
