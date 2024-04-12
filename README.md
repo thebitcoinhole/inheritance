@@ -25,7 +25,6 @@ The following is a sample of the JSON format:
 {
     "id": "inheritance-service-id",
     "name": "Inheritance Service Name",
-    "purchasable": true,
     "category-name": {
       "feature-name-1": {
         "value": "YES", 
