@@ -144,9 +144,12 @@
       "supported": true
     },
     "assign-percentage-beneficiaries": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "Manually",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "There is no automatic support to assign percentages to the beneficiares. You need to manually assign the percentage of your funds to each multisig wallet assigned to each beneficiary"
+      ]
     }
   },
   "features": {

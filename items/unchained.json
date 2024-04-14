@@ -136,8 +136,7 @@
       "supported": true
     },
     "assign-percentage-beneficiaries": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "?",
       "supported": false
     }
   },
