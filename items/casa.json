@@ -102,6 +102,11 @@
       "supported": false
     },
     "health-checks": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "health-checks-reminders": {
       "value": "Every 6 months",
       "flag": "positive",
       "supported": true,

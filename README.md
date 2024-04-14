@@ -99,6 +99,7 @@ All the features supported:
 | Private Keys | private-keys | Key Replacement Assisted Support | key-replacement-support |
 | Private Keys | private-keys | Beneficiary Key Lost Protection | beneficiary-key-lost-protection |
 | Private Keys | private-keys | Health Checks | health-checks |
+| Private Keys | private-keys | Health Checks Reminders | health-checks-reminders |
 | Passing Down Alternatives | passing-down-alternatives | Direct Inheritance | direct-inheritance |
 | Passing Down Alternatives | passing-down-alternatives | Indirect Inheritance | indirect-inheritance |
 | Passing Down Alternatives | passing-down-alternatives | Joint Control | joint-control |
