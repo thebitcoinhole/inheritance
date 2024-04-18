@@ -1,6 +1,7 @@
 {
   "id": "liana",
   "name": "Liana",
+  "purchasable": true,
   "basic-information": {
     "price": {
       "value": "$0"
