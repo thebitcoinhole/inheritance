@@ -423,9 +423,9 @@
       "flag": "positive"
     },
     "passport-batch-2": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "seedsigner": {
       "value": "NO",
