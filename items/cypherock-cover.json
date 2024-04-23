@@ -419,6 +419,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "cypherock-x1": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "jade": {
       "value": "NO",
       "supported": false,
