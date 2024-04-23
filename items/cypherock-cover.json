@@ -65,9 +65,12 @@
       "supported": true
     },
     "provider-independence": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "Cypherock server doesn't store any private key or part of it. But, the encrypted message to be sent to the beneficiary is stored in Cypherock server."
+      ]
     },
     "single-sig": {
       "value": "YES",
@@ -97,9 +100,9 @@
       ]
     },
     "health-checks": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "health-checks-reminders": {
       "value": "NO",
@@ -124,9 +127,13 @@
       "supported": false
     },
     "multiple-beneficiaries": {
-      "value": "1 per wallet",
+      "value": "1 per Single-Sig",
       "flag": "neutral",
-      "supported": true
+      "supported": true,
+      "texts": [
+        "You can do it on a single Cypherock X1. You don't need to buy additional products.",
+        "You can have upto 4 single sig wallets in a single Cypherock X1"
+      ]
     },
     "assign-percentage-beneficiaries": {
       "value": "NO",
