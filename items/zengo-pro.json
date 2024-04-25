@@ -61,9 +61,12 @@
   },
   "private-keys": {
     "non-custodial": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "Zengo Server co-signs transactions, but cannot change/initialize/spend without the approval of the owner. Given that the owner depends of Zengo to co-sign transaction, it can be considered non-custodial."
+      ]
     },
     "provider-independence": {
       "value": "NO",
