@@ -68,7 +68,13 @@
     "provider-independence": {
       "value": "NO",
       "flag": "negative",
-      "supported": false
+      "supported": false,
+      "links": [
+        {
+          "title": "How Zengo guarantees access to customers' funds",
+          "url": "https://zengo.com/how-zengo-guarantees-access-to-customers-funds/"
+        }
+      ]
     },
     "single-sig": {
       "value": "YES",
@@ -97,14 +103,17 @@
       "supported": false
     },
     "health-checks": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Zengo app automatically checks that the Legacy File is active and available every time the user logs into the device."
+      ]
     },
     "health-checks-reminders": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "No Need",
+      "flag": "positive",
+      "supported": true
     }
   },
   "passing-down-alternatives": {
@@ -215,7 +224,13 @@
     "android-open-source": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Zengo and Open Source",
+          "url": "https://zengo.com/zengo-and-open-source/"
+        }
+      ]
     },
     "android-license": {
       "value": "-",
@@ -244,7 +259,13 @@
     "ios-open-source": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Zengo and Open Source",
+          "url": "https://zengo.com/zengo-and-open-source/"
+        }
+      ]
     },
     "ios-license": {
       "value": "-",
