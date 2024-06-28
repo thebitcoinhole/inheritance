@@ -91,11 +91,14 @@
       "supported": true
     },
     "key-replacement-support": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false,
-      "texts": [
-        "The user can create a new assisted wallet and roll the funds over in case any key is compromised. The process is not automated."
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Advancing Bitcoin Security: Seamless Key Replacement for Multisig Wallets",
+          "url": "https://nunchuk.io/blog/key-replacement"
+        }
       ]
     },
     "beneficiary-key-lost-protection": {
