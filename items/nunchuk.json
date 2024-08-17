@@ -548,6 +548,11 @@
       "flag": "positive",
       "supported": true
     },
+    "trezor-safe-5": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
     "trezor-model-t": {
       "value": "YES",
       "flag": "positive",

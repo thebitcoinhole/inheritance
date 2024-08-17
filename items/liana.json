@@ -531,6 +531,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "trezor-safe-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "trezor-model-t": {
       "value": "NO",
       "supported": false,

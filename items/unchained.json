@@ -354,12 +354,24 @@
     "coldcard-mk4": {
       "value": "YES",
       "flag": "positive",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Coldcard?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-coldcard-mk4"
+        }
+      ]
     },
     "coldcard-q": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I set up a Coldcard?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-coldcard-mk4"
+        }
+      ]
     },
     "cypherock-x1": {
       "value": "NO",
@@ -379,12 +391,24 @@
     "ledger-nano-s-plus": {
       "value": "YES",
       "flag": "positive",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Ledger?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-ledger"
+        }
+      ]
     },
     "ledger-nano-X": {
       "value": "YES",
       "flag": "positive",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Ledger?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-ledger"
+        }
+      ]
     },
     "passport-batch-2": {
       "value": "NO",
@@ -409,9 +433,26 @@
     "trezor-model-one": {
       "value": "YES",
       "flag": "positive",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Trezor Model One?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-trezor-model-one"
+        }
+      ]
     },
     "trezor-safe-3": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Trezor Safe 3?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-trezor-safe-3"
+        }
+      ]
+    },
+    "trezor-safe-5": {
       "value": "YES",
       "flag": "positive",
       "supported": true
