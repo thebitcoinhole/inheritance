@@ -40,11 +40,11 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "btc-lightning": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "alt-coins": {
