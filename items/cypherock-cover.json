@@ -140,6 +140,31 @@
       "supported": false
     }
   },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "No KYC is required. Neither the user's nor the nominee's KYC is required to set up estate recovery. All that is required is the user's email and the nominee's email to send the encrypted message on."
+      ]
+    },
+    "coin-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "custom-node": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "NO",
@@ -154,14 +179,6 @@
     "exchanges-integration": {
       "value": "NO",
       "supported": false
-    },
-    "private": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true,
-      "texts": [
-        "No KYC is required. Neither the user's nor the nominee's KYC is required to set up estate recovery. All that is required is the user's email and the nominee's email to send the encrypted message on."
-      ]
     },
     "message-for-beneficiary": {
       "value": "YES",

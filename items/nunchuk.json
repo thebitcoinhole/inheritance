@@ -156,6 +156,39 @@
       ]
     }
   },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Nunchuk inheritance plan is built on cryptographic secrets, not proof of identity. That means both you and your Beneficiary can keep your privacy.",
+        "Each inheritance plan is uniquely identified by a Magic Phrase. The phrase will allow the Beneficiary or Trustee to locate the inheritance's backup data stored on Nunchuk server.",
+        "The inheritance's backup data is protected by a password. You will need this password in order to recover the inheritance key during the claiming process."
+      ]
+    },
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Advanced Coin Control with Nunchuk",
+          "url": "https://nunchuk.io/blog/coin-control"
+        }
+      ]
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "YES",
@@ -170,16 +203,6 @@
     "exchanges-integration": {
       "value": "NO",
       "supported": false
-    },
-    "private": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true,
-      "texts": [
-        "Nunchuk inheritance plan is built on cryptographic secrets, not proof of identity. That means both you and your Beneficiary can keep your privacy.",
-        "Each inheritance plan is uniquely identified by a Magic Phrase. The phrase will allow the Beneficiary or Trustee to locate the inheritance's backup data stored on Nunchuk server.",
-        "The inheritance's backup data is protected by a password. You will need this password in order to recover the inheritance key during the claiming process."
-      ]
     },
     "message-for-beneficiary": {
       "value": "YES",

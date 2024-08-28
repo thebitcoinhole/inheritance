@@ -138,6 +138,28 @@
       ]
     }
   },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "YES",
@@ -152,11 +174,6 @@
     "exchanges-integration": {
       "value": "NO",
       "supported": false
-    },
-    "private": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
     },
     "message-for-beneficiary": {
       "value": "NO",

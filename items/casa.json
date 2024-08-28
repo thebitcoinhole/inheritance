@@ -153,6 +153,31 @@
       ]
     }
   },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Private by default. The proof of identity requirement is optional."
+      ]
+    },
+    "coin-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "custom-node": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "NO",
@@ -167,14 +192,6 @@
     "exchanges-integration": {
       "value": "NO",
       "supported": false
-    },
-    "private": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true,
-      "texts": [
-        "Private by default. The proof of identity requirement is optional."
-      ]
     },
     "message-for-beneficiary": {
       "value": "NO",

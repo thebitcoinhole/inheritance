@@ -135,6 +135,28 @@
       "supported": true
     }
   },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coin-control": {
+      "value": "Depending of the used wallet",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "custom-node": {
+      "value": "Depending of the used wallet",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "tor": {
+      "value": "Depending of the used wallet",
+      "supported": true,
+      "flag": "neutral"
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "NO",
@@ -152,11 +174,6 @@
       "texts": [
         "Jinca Integrates to your exchanges with their API to automatically transfer your assets to preconfigured wallets of your loved ones."
       ]
-    },
-    "private": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
     },
     "message-for-beneficiary": {
       "value": "NO",
