@@ -416,9 +416,9 @@
       "flag": "negative"
     },
     "seedsigner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "specter-diy": {
       "value": "NO",
