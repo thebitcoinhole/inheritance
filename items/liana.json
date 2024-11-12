@@ -499,9 +499,9 @@
       "flag": "negative"
     },
     "jade": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "keystone-3-pro": {
       "value": "NO",
