@@ -373,6 +373,11 @@
         }
       ]
     },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "coldcard-mk4": {
       "value": "Exporting private keys",
       "supported": true,

@@ -368,6 +368,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "coldcard-mk4": {
       "value": "YES",
       "flag": "positive",
