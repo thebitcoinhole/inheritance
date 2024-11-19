@@ -87,7 +87,7 @@
       ]
     },
     "required-hardware-wallet": {
-      "value": "Tapsigner + 2 hardware keys",
+      "value": "Tapsigner/Coldcard + 2 hardware keys",
       "supported": true
     },
     "key-replacement-support": {
