@@ -78,7 +78,7 @@ All the features supported:
 
 | Category | Category Id | Feature | Feature Id |
 | --- | --- | --- | --- |
-| Basic Information | basic-information | Yearly Price | price |
+| Basic Information | basic-information | Minimum Yearly Price | price |
 | Company | company | Brand | brand |
 | Company | company | Headquarters | headquarters |
 | Company | company | Website | website |
@@ -92,7 +92,7 @@ All the features supported:
 | Subscription Payment Methods | payment-methods | Alt Coins | alt-coins |
 | Subscription Payment Methods | payment-methods | Credit/Debit Card | credit-debit-card |
 | Private Keys | private-keys | Non-custodial | non-custodial |
-| Private Keys | private-keys | Provider Independence | provider-independence |
+| Private Keys | private-keys | Third-Party Independence | provider-independence |
 | Private Keys | private-keys | Single-Sig | single-sig |
 | Private Keys | private-keys | Multi-sig (PSBTs) | multi-sig |
 | Private Keys | private-keys | Required Hardware Wallet | required-hardware-wallet |
@@ -105,10 +105,13 @@ All the features supported:
 | Passing Down Alternatives | passing-down-alternatives | Joint Control | joint-control |
 | Passing Down Alternatives | passing-down-alternatives | Multiple Beneficiaries | multiple-beneficiaries |
 | Passing Down Alternatives | passing-down-alternatives | Assign Percentage to each Beneficiary | assign-percentage-beneficiaries |
+| Privacy | privacy | Non-KYC | non-kyc |
+| Privacy | privacy | Coin Control | coin-control |
+| Privacy | privacy | Custom Node | custom-node |
+| Privacy | privacy | Tor | tor |
 | Features | features | Bitcoin-only | bitcoin-only |
 | Features | features | Crypto Specific Solution | crypto-specific-solution |
 | Features | features | Exchanges Integration | exchanges-integration |
-| Features | features | Private (Non-KYC) | private |
 | Features | features | Message for Beneficiary | message-for-beneficiary |
 | Features | features | Notifications to Beneficiary | notifications-to-beneficiary |
 | Features | features | Onchain Timelock | onchain-timelock |
@@ -151,6 +154,7 @@ All the features supported:
 | Hardware Wallets Support | hardware-wallets-support | Bitbox02 | bitbox02 |
 | Hardware Wallets Support | hardware-wallets-support | Coldcard Mk4 | coldcard-mk4 |
 | Hardware Wallets Support | hardware-wallets-support | Coldcard Q | coldcard-q |
+| Hardware Wallets Support | hardware-wallets-support | Cypherock X1 | cypherock-x1 |
 | Hardware Wallets Support | hardware-wallets-support | Jade | jade |
 | Hardware Wallets Support | hardware-wallets-support | Keystone 3 Pro | keystone-3-pro |
 | Hardware Wallets Support | hardware-wallets-support | Ledger Nano S Plus | ledger-nano-s-plus |
@@ -161,6 +165,7 @@ All the features supported:
 | Hardware Wallets Support | hardware-wallets-support | Tapsigner | tapsigner |
 | Hardware Wallets Support | hardware-wallets-support | Trezor Model One | trezor-model-one |
 | Hardware Wallets Support | hardware-wallets-support | Trezor Safe 3 | trezor-safe-3 |
+| Hardware Wallets Support | hardware-wallets-support | Trezor Safe 5 | trezor-safe-5 |
 | Hardware Wallets Support | hardware-wallets-support | Trezor Model t | trezor-model-t |
 
 ## Website

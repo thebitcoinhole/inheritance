@@ -145,6 +145,31 @@
       "supported": false
     }
   },
+  "privacy": {
+    "non-kyc": {
+      "value": "3D FaceLock Required",
+      "flag": "neutral",
+      "supported": false,
+      "texts": [
+        "3D FaceLock is an encrypted liveness verification scan - it's not KYC. Verification is done on Zengo's server."
+      ]
+    },
+    "coin-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "custom-node": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "NO",
@@ -159,14 +184,6 @@
     "exchanges-integration": {
       "value": "NO",
       "supported": false
-    },
-    "private": {
-      "value": "3D FaceLock Required",
-      "flag": "neutral",
-      "supported": false,
-      "texts": [
-        "3D FaceLock is an encrypted liveness verification scan - it's not KYC. Verification is done on Zengo's server."
-      ]
     },
     "message-for-beneficiary": {
       "value": "NO",
@@ -372,6 +389,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "coldcard-mk4": {
       "value": "NO",
       "supported": false,
@@ -433,6 +455,11 @@
       "flag": "negative"
     },
     "trezor-safe-3": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-5": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

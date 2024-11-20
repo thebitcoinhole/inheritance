@@ -138,6 +138,28 @@
       ]
     }
   },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "YES",
@@ -152,11 +174,6 @@
     "exchanges-integration": {
       "value": "NO",
       "supported": false
-    },
-    "private": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
     },
     "message-for-beneficiary": {
       "value": "NO",
@@ -454,6 +471,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "coldcard-mk4": {
       "value": "YES",
       "supported": true,
@@ -482,9 +504,9 @@
       "flag": "negative"
     },
     "jade": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "keystone-3-pro": {
       "value": "NO",
@@ -527,6 +549,11 @@
       "flag": "negative"
     },
     "trezor-safe-3": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-5": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

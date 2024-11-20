@@ -135,6 +135,28 @@
       "supported": true
     }
   },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coin-control": {
+      "value": "Depending of the used wallet",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "custom-node": {
+      "value": "Depending of the used wallet",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "tor": {
+      "value": "Depending of the used wallet",
+      "supported": true,
+      "flag": "neutral"
+    }
+  },
   "features": {
     "bitcoin-only": {
       "value": "NO",
@@ -152,11 +174,6 @@
       "texts": [
         "Jinca Integrates to your exchanges with their API to automatically transfer your assets to preconfigured wallets of your loved ones."
       ]
-    },
-    "private": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
     },
     "message-for-beneficiary": {
       "value": "NO",
@@ -356,6 +373,11 @@
         }
       ]
     },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "coldcard-mk4": {
       "value": "Exporting private keys",
       "supported": true,
@@ -516,6 +538,20 @@
       ]
     },
     "trezor-safe-3": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
+    "trezor-safe-5": {
       "value": "Exporting private keys",
       "supported": true,
       "flag": "neutral",
