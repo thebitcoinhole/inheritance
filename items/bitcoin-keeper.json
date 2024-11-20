@@ -4,7 +4,7 @@
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$249.99"
+      "value": "$480.00"
     }
   },
   "company": {
@@ -119,12 +119,12 @@
       "supported": true
     },
     "joint-control": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
     "multiple-beneficiaries": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
@@ -132,6 +132,28 @@
       "value": "NO",
       "flag": "negative",
       "supported": false
+    }
+  },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "features": {
@@ -160,7 +182,7 @@
       "supported": false
     },
     "notifications-to-beneficiary": {
-      "value": "SAMPLE",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     },
@@ -325,83 +347,149 @@
   },
   "macos-support": {
     "macos-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/bithyve/keeper-desktop/releases/"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bithyve/keeper-desktop"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bithyve/keeper-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "macos-release-notes": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-source-available": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-open-source": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-license": {
-      "value": "-",
-      "supported": false
-    },
-    "macos-reproducible-builds": {
-      "value": "-",
-      "supported": false
     }
   },
   "linux-support": {
     "linux-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/bithyve/keeper-desktop/releases/"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bithyve/keeper-desktop"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bithyve/keeper-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "linux-release-notes": {
-      "value": "-",
-      "supported": false
-    },
-    "linux-source-available": {
-      "value": "-",
-      "supported": false
-    },
-    "linux-open-source": {
-      "value": "-",
-      "supported": false
-    },
-    "linux-license": {
-      "value": "-",
-      "supported": false
-    },
-    "linux-reproducible-builds": {
-      "value": "-",
-      "supported": false
     }
   },
   "windows-support": {
     "windows-supported": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/bithyve/keeper-desktop/releases/"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bithyve/keeper-desktop"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bithyve/keeper-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "windows-release-notes": {
-      "value": "-",
-      "supported": false
-    },
-    "windows-source-available": {
-      "value": "-",
-      "supported": false
-    },
-    "windows-open-source": {
-      "value": "-",
-      "supported": false
-    },
-    "windows-license": {
-      "value": "-",
-      "supported": false
-    },
-    "windows-reproducible-builds": {
-      "value": "-",
-      "supported": false
     }
   },
   "hardware-wallets-support": {
@@ -409,6 +497,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "coldcard-mk4": {
       "value": "YES",
@@ -471,6 +564,11 @@
       "flag": "positive"
     },
     "trezor-safe-3": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-safe-5": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
