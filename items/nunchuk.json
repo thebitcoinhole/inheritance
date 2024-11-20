@@ -112,9 +112,9 @@
       "supported": true
     },
     "health-checks-reminders": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     }
   },
   "passing-down-alternatives": {
