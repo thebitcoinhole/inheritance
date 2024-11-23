@@ -1,6 +1,7 @@
 {
   "id": "bitcoin-keeper",
   "name": "Bitcoin Keeper",
+  "enabled": false,
   "purchasable": true,
   "basic-information": {
     "price": {
