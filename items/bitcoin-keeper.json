@@ -28,7 +28,8 @@
       "url": "https://x.com/bitcoinKeeper_"
     },
     "nostr": {
-      "value": "-"
+      "value": "Bitcoin Keeper",
+      "url": "https://primal.net/p/npub1mlzukkwhuhl3y7wd6kw20fz6s99l8d0uqtj4sskhvaaud8rwcuuszt2t6p"
     },
     "youtube": {
       "value": "@bithyve3330",
@@ -41,14 +42,14 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "SOON",
+      "flag": "neutral",
+      "supported": true
     },
     "btc-lightning": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "SOON",
+      "flag": "neutral",
+      "supported": true
     },
     "alt-coins": {
       "value": "NO",
@@ -540,6 +541,11 @@
       "flag": "positive"
     },
     "passport-batch-2": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "portal": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

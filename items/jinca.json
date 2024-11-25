@@ -490,6 +490,20 @@
         }
       ]
     },
+    "portal": {
+      "value": "Exporting private keys",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to export your private key and load into Jinca"
+      ],
+      "links": [
+        {
+          "title": "Seedphrase & Information Backup",
+          "url": "https://support.jinca.se/hc/en-us/articles/15179827930907-Seedphrase-Information-Backup"
+        }
+      ]
+    },
     "seedsigner": {
       "value": "Exporting private keys",
       "supported": true,

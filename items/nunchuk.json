@@ -551,6 +551,11 @@
       "flag": "positive",
       "supported": true
     },
+    "portal": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
     "seedsigner": {
       "value": "YES",
       "flag": "positive",

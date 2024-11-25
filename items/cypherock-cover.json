@@ -477,6 +477,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "portal": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "seedsigner": {
       "value": "NO",
       "supported": false,

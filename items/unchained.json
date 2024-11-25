@@ -437,6 +437,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "portal": {
+      "value": "SOON",
+      "supported": true,
+      "flag": "neutral"
+    },
     "seedsigner": {
       "value": "YES",
       "flag": "positive",
