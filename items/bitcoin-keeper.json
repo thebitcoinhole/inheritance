@@ -89,9 +89,13 @@
       "supported": false
     },
     "key-replacement-support": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": {
+        "title": "Changing a Signer vs. Changing a Key in a Multi-key Wallet in Keeper",
+        "url": "https://help.bitcoinkeeper.app/hc/en-us/articles/23252255445405-Changing-a-Signer-vs-Changing-a-Key-in-a-Multi-key-Wallet-in-Keeper"
+      }
     },
     "beneficiary-key-lost-protection": {
       "value": "NO",
@@ -99,14 +103,14 @@
       "supported": false
     },
     "health-checks": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "health-checks-reminders": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     }
   },
   "passing-down-alternatives": {
@@ -189,8 +193,8 @@
       "supported": false
     },
     "onchain-timelock": {
-      "value": "NO",
-      "supported": false
+      "value": "SOON",
+      "supported": true
     },
     "timelock-refresh-method": {
       "value": "No Need",
