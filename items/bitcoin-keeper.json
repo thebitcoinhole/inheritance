@@ -67,9 +67,9 @@
       "supported": true
     },
     "provider-independence": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "SOON",
+      "flag": "neutral",
+      "supported": true
     },
     "single-sig": {
       "value": "NO",
@@ -77,12 +77,9 @@
       "supported": false
     },
     "multi-sig": {
-      "value": "Optional (3-of-6)",
+      "value": "Optional (2-of-3)",
       "flag": "positive",
-      "supported": true,
-      "texts": [
-        "The Inheritance Key(IK) is an additional signing option the user can add when they are at Level 3. This would convert the multisig configuration from a 3-of-5 to a 3-of-6 setup. The IK is a key that is on a signing server and signs for any request that can affirm that it has previous 2 keys. Thus the IK can only be requested to be used after 2 others have signed."
-      ]
+      "supported": true
     },
     "required-hardware-wallet": {
       "value": "NO",
@@ -130,9 +127,9 @@
       "supported": false
     },
     "multiple-beneficiaries": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "1 per Multisig",
+      "flag": "neutral",
+      "supported": true
     },
     "assign-percentage-beneficiaries": {
       "value": "NO",
@@ -353,9 +350,9 @@
   },
   "macos-support": {
     "macos-supported": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "macos-release-notes": {
       "value": "YES",
@@ -402,9 +399,9 @@
   },
   "linux-support": {
     "linux-supported": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "linux-release-notes": {
       "value": "YES",
@@ -451,9 +448,9 @@
   },
   "windows-support": {
     "windows-supported": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "windows-release-notes": {
       "value": "YES",
@@ -560,9 +557,9 @@
       "flag": "positive"
     },
     "specter-diy": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tapsigner": {
       "value": "YES",
