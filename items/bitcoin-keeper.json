@@ -1,7 +1,6 @@
 {
   "id": "bitcoin-keeper",
   "name": "Bitcoin Keeper",
-  "enabled": false,
   "purchasable": true,
   "basic-information": {
     "price": {
@@ -77,7 +76,7 @@
       "supported": false
     },
     "multi-sig": {
-      "value": "Optional (2-of-3)",
+      "value": "Required (2-of-3, etc)",
       "flag": "positive",
       "supported": true
     },
