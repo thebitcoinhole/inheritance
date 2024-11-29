@@ -88,10 +88,12 @@
       "value": "YES",
       "flag": "positive",
       "supported": true,
-      "links": {
-        "title": "Changing a Signer vs. Changing a Key in a Multi-key Wallet in Keeper",
-        "url": "https://help.bitcoinkeeper.app/hc/en-us/articles/23252255445405-Changing-a-Signer-vs-Changing-a-Key-in-a-Multi-key-Wallet-in-Keeper"
-      }
+      "links": [
+        {
+          "title": "Changing a Signer vs. Changing a Key in a Multi-key Wallet in Keeper",
+          "url": "https://help.bitcoinkeeper.app/hc/en-us/articles/23252255445405-Changing-a-Signer-vs-Changing-a-Key-in-a-Multi-key-Wallet-in-Keeper"
+        }
+      ]
     },
     "beneficiary-key-lost-protection": {
       "value": "NO",
