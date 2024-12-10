@@ -4,7 +4,7 @@
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$480.00"
+      "value": "$200.00"
     }
   },
   "company": {
@@ -66,8 +66,8 @@
       "supported": true
     },
     "provider-independence": {
-      "value": "SOON",
-      "flag": "neutral",
+      "value": "YES",
+      "flag": "positive",
       "supported": true
     },
     "single-sig": {
@@ -191,7 +191,7 @@
       "supported": false
     },
     "onchain-timelock": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true
     },
     "timelock-refresh-method": {
