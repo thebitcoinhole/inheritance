@@ -2,11 +2,6 @@
   "id": "zengo-pro",
   "name": "Zengo Pro",
   "purchasable": true,
-  "basic-information": {
-    "price": {
-      "value": "$199.99"
-    }
-  },
   "company": {
     "brand": {
       "value": "Zengo"

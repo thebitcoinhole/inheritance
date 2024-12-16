@@ -2,11 +2,6 @@
   "id": "unchained",
   "name": "Unchained",
   "purchasable": true,
-  "basic-information": {
-    "price": {
-      "value": "$250"
-    }
-  },
   "company": {
     "brand": {
       "value": "Unchained Capital"

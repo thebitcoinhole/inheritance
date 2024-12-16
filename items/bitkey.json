@@ -3,11 +3,6 @@
   "name": "Bitkey",
   "purchasable": true,
   "coming-soon": true,
-  "basic-information": {
-    "price": {
-      "value": "?"
-    }
-  },
   "company": {
     "brand": {
       "value": "Block"

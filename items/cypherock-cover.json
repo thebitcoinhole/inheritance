@@ -3,11 +3,6 @@
   "name": "Cypherock Cover",
   "purchasable": true,
   "coming-soon": true,
-  "basic-information": {
-    "price": {
-      "value": "?"
-    }
-  },
   "company": {
     "brand": {
       "value": "Cypherock"
