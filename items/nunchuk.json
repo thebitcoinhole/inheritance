@@ -2,11 +2,6 @@
   "id": "nunchuk",
   "name": "Nunchuk",
   "purchasable": true,
-  "basic-information": {
-    "price": {
-      "value": "$480"
-    }
-  },
   "company": {
     "brand": {
       "value": "Nunchuk"

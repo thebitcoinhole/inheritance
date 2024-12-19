@@ -2,11 +2,6 @@
   "id": "bitcoin-keeper",
   "name": "Bitcoin Keeper",
   "purchasable": true,
-  "basic-information": {
-    "price": {
-      "value": "$200.00"
-    }
-  },
   "company": {
     "brand": {
       "value": "BitHyve"

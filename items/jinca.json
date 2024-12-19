@@ -2,11 +2,6 @@
   "id": "jinca",
   "name": "Jinca",
   "purchasable": true,
-  "basic-information": {
-    "price": {
-      "value": "$45"
-    }
-  },
   "company": {
     "brand": {
       "value": "Jinca"
