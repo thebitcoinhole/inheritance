@@ -122,13 +122,9 @@
       "supported": false
     },
     "multiple-beneficiaries": {
-      "value": "1 per Single-Sig",
+      "value": "1 + 1 Backup Beneficiary",
       "flag": "neutral",
-      "supported": true,
-      "texts": [
-        "You can do it on a single Cypherock X1. You don't need to buy additional products.",
-        "You can have upto 4 single sig wallets in a single Cypherock X1"
-      ]
+      "supported": true
     },
     "assign-percentage-beneficiaries": {
       "value": "NO",
