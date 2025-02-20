@@ -2,37 +2,7 @@
   "id": "cypherock-cover",
   "name": "Cypherock Cover",
   "purchasable": true,
-  "company": {
-    "brand": {
-      "value": "Cypherock"
-    },
-    "headquarters": {
-      "value": "Singapore"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://www.cypherock.com/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://www.cypherock.com/blogs"
-    },
-    "twitter": {
-      "value": "@CypherockWallet",
-      "url": "https://x.com/CypherockWallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@CypherockWallet",
-      "url": "https://www.youtube.com/@CypherockWallet"
-    },
-    "github": {
-      "value": "Cypherock",
-      "url": "https://github.com/Cypherock"
-    }
-  },
+  "company": "cypherock",
   "payment-methods": {
     "btc-on-chain": {
       "value": "NO",

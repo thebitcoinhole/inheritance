@@ -2,36 +2,7 @@
   "id": "casa",
   "name": "Casa",
   "purchasable": true,
-  "company": {
-    "brand": {
-      "value": "Casa"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://casa.io/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://blog.keys.casa/"
-    },
-    "twitter": {
-      "value": "@CasaHODL",
-      "url": "https://x.com/CasaHODL"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@CasaOfficial",
-      "url": "https://www.youtube.com/@CasaOfficial"
-    },
-    "github": {
-      "value": "-"
-    }
-  },
+  "company": "casa",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES",

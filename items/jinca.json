@@ -2,35 +2,7 @@
   "id": "jinca",
   "name": "Jinca",
   "purchasable": true,
-  "company": {
-    "brand": {
-      "value": "Jinca"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://jinca.se/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://jinca.medium.com/"
-    },
-    "twitter": {
-      "value": "@Jinca_se",
-      "url": "https://x.com/Jinca_se"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "-"
-    }
-  },
+  "company": "jinca",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES",

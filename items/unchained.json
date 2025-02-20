@@ -2,37 +2,7 @@
   "id": "unchained",
   "name": "Unchained",
   "purchasable": true,
-  "company": {
-    "brand": {
-      "value": "Unchained Capital"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "Website",
-      "url": "https://unchained.com/"
-    },
-    "blog": {
-      "value": "Blog",
-      "url": "https://unchained.com/blog/"
-    },
-    "twitter": {
-      "value": "@unchainedcom",
-      "url": "https://x.com/unchainedcom"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@unchainedbtc",
-      "url": "https://www.youtube.com/@unchainedbtc"
-    },
-    "github": {
-      "value": "unchained-capital",
-      "url": "https://github.com/unchained-capital"
-    }
-  },
+  "company": "unchained-capital",
   "payment-methods": {
     "btc-on-chain": {
       "value": "NO",
